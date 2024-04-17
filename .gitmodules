@@ -1,0 +1,3 @@
+[submodule "shop-react-redux-cloudfront"]
+	path = shop-react-redux-cloudfront
+	url = git@github.com:RomanKiblitskyi/shop-react-redux-cloudfront.git
