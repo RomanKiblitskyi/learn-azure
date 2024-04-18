@@ -142,8 +142,8 @@ resource "azurerm_resource_group" "apim" {
 resource "azurerm_api_management" "core_apim" {
   location        = "northeurope"
   name            = "myapim-sand-ne-001"
-  publisher_email = "nazarii_romankiv@epam.com"
-  publisher_name  = "Nazarii Romankiv"
+  publisher_email = "roman_kiblitskyi@epam.com"
+  publisher_name  = "Roman Kiblitskyi"
 
   resource_group_name = azurerm_resource_group.apim.name
   sku_name            = "Consumption_0"
