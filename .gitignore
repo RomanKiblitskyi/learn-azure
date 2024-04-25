@@ -1,3 +1,4 @@
 terraform/.terraform.lock.hcl
 terraform/terraform.tfstate
 terraform/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.92.0/darwin_arm64/terraform-provider-azurerm_v3.92.0_x5
+terraform/terraform.tfstate.backup
