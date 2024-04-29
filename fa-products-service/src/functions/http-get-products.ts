@@ -10,6 +10,6 @@ export async function httpGetProducts(request: HttpRequest, context: InvocationC
 
 app.http('http-get-products', {
     methods: ['GET', 'POST'],
-    authLevel: 'function',
+    authLevel: 'anonymous',
     handler: httpGetProducts
 });

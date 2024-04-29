@@ -26,7 +26,7 @@ export async function httpGetProductList(request: HttpRequest, context: Invocati
 
 app.http('http-get-product-list', {
     methods: ['GET'],
-    authLevel: 'function',
+    authLevel: 'anonymous',
     route: 'products',
     handler: httpGetProductList
 });

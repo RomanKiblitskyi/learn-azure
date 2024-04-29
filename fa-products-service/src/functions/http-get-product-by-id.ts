@@ -30,7 +30,7 @@ export async function httpGetProductById(request: HttpRequest, context: Invocati
 
 app.http('http-get-product-by-id', {
     methods: ['GET'],
-    authLevel: 'function',
+    authLevel: 'anonymous',
     route: 'products/{productId:guid}',
     handler: httpGetProductById
 });

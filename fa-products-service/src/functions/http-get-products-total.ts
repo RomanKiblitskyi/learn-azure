@@ -19,7 +19,7 @@ export async function httpGetProductsTotal(request: HttpRequest, context: Invoca
 
 app.http('http-get-products-total', {
     methods: ['GET'],
-    authLevel: 'function',
+    authLevel: 'anonymous',
     route: 'products/total',
     handler: httpGetProductsTotal
 });

@@ -46,7 +46,7 @@ export async function httpPostProduct(request: HttpRequest, context: InvocationC
 
 app.http('http-post-product', {
     methods: ['POST'],
-    authLevel: 'function',
+    authLevel: 'anonymous',
     route: 'product',
     handler: httpPostProduct
 });
